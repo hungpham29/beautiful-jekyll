@@ -40,7 +40,7 @@ blockquote p:first-child {
   margin-top: 0;
 }
 hr.small {
-  max-width: 100px;
+  max-width: 69px;
   margin: 15px auto;
   border-width: 4px;
   border-color: inherit;
@@ -477,13 +477,21 @@ footer .theme-by {
   font-size: 35px;
 }
 .intro-header .page-heading .page-subheading,
-.intro-header .post-heading .post-subheading {
+.intro-header .post-heading .post-subheading,
+.intro-header .page-heading .page-try-hard-heading {
   font-size: 27px;
   line-height: 1.1;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
+}
+.intro-header .page-heading .page-try-hard-heading {
+  font-size: 18px;
+  line-height: 24px;
+}
+.intro-header .page-heading .page-try-hard-heading .try-hard-author {
+  font-style: italic;
 }
 .intro-header .post-heading .post-subheading {
   margin-bottom: 20px;
