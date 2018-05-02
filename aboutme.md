@@ -5,7 +5,7 @@ title: About me
 
 My name is Hung Pham.
 
-What else? Noop ~|~
+What else? Noop ~
 
 ### my history
 
