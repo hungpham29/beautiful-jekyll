@@ -1,9 +1,0 @@
-<p class="{{ include.type }}-try-hard-heading">
-    {% assign min = 1 %}
-    {% assign max = site.data.TryHard.size %}
-    {% assign diff = max | minus: min %}
-    {% assign randomNumber = "now" | date: "%N" | modulo: diff %}
-
-    {{ site.data.TryHard[randomNumber].content }}
-    <span class="small try-hard-author">({{ site.data.TryHard[randomNumber].author }})</span>
-</p>
