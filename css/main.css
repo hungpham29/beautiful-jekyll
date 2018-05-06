@@ -341,7 +341,7 @@ footer .theme-by {
 */
 .post-preview a {
   text-decoration: none;
-  color: #404040;
+  color: #e8175d;
 }
 
 .post-preview a:focus,
@@ -351,7 +351,7 @@ footer .theme-by {
 }
 
 .post-preview .post-title {
-  font-size: 30px;
+  font-size: 1rem;
   margin: 0;
 }
 .post-preview .post-title::before {
@@ -363,7 +363,7 @@ footer .theme-by {
   margin: 0;
   font-weight: 300;
   margin-left: 20px;
-  font-size: .75rem;
+  font-size: .85rem;
   font-style: italic;
 }
 .post-preview .post-meta,
