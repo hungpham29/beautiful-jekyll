@@ -8,8 +8,11 @@ var main = {
   init: function () {
     // random sayings
     var $tryHard = $('.try-hard');
-    $tryHard.eq(Math.floor(Math.random() * $tryHard.length)).removeClass('hide');
-    $tryHard.filter('.hide').remove();
+    $tryHard.eq(Math.floor(Math.random() * $tryHard.length)).fadeIn(500, function() {
+      //$('.posts-list, footer').fadeIn(100);
+    });
+    
+    $tryHard.filter(':not(:visible)').remove();
 
     // When refresh page, if scroll is large than 100.
     main.handleHeader();

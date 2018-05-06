@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6 {
   /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   font-weight: 800;
 }
-.h3, h3 {
+.h1, .h2, .h3, h1, h2, h3 {
   font-size: 1.5rem;
 }
 a {
@@ -358,13 +358,15 @@ footer .theme-by {
   content: '-';
   width: 20px;
   display: inline-block;
+  color: #404040;
 }
 .post-preview .post-subtitle {
   margin: 0;
   font-weight: 300;
-  margin-left: 20px;
+  margin: 2px 0 0 20px;
   font-size: .85rem;
   font-style: italic;
+  color: #404040;
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
@@ -499,7 +501,7 @@ footer .theme-by {
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading,
 .intro-header .page-heading .page-try-hard-heading {
-  font-size: 27px;
+  font-size: 1.2rem;
   line-height: 1.1;
   display: block;
   /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
@@ -509,6 +511,7 @@ footer .theme-by {
 .intro-header .page-heading .page-try-hard-heading {
   font-size: 1rem;
   line-height: 24px;
+  display: none;
 }
 .intro-header .page-heading .page-try-hard-heading .try-hard-author {
   font-style: italic;
