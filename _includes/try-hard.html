@@ -1,4 +1,6 @@
-<p class="{{ include.type }}-try-hard-heading">
-    {{ site.data.TryHard[0].content }}
-    <span class="small try-hard-author">({{ site.data.TryHard[0].author }})</span>
-</p>
+{% for node in site.data.TryHard %}
+  <p class="{{ include.type }}-try-hard-heading try-hard hide">
+    {{ node.content }}
+    <span class="try-hard-author">({{ node.author }})</span>
+  </p>
+{% endfor %}

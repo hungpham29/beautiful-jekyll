@@ -6,6 +6,12 @@ var main = {
   numImgs: null,
 
   init: function () {
+    // random sayings
+    var $tryHard = $('.try-hard');
+    $tryHard.eq(Math.floor(Math.random() * $tryHard.length)).removeClass('hide');
+    $tryHard.filter('.hide').remove();
+
+    // When refresh page, if scroll is large than 100.
     main.handleHeader();
     // Shorten the navbar after scrolling a little bit down
     $(window).scroll(function () {
@@ -66,10 +72,10 @@ var main = {
   handleHeader: function () {
     if ($(".navbar").offset().top > 50) {
       $(".navbar").addClass("top-nav-short");
-      $(".navbar-custom .avatar-container").fadeOut(500);
+      $(".navbar-custom .avatar-container").fadeOut(100);
     } else {
       $(".navbar").removeClass("top-nav-short");
-      $(".navbar-custom .avatar-container").fadeIn(500);
+      $(".navbar-custom .avatar-container").fadeIn(100);
     }
   },
 

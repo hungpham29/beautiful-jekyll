@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: My Blog
+title: MY BLOG 
 
 # Short description of your site
 description: To Store Memory!
@@ -135,8 +135,9 @@ title-separator: "-"
 timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
-paginate: 5
+permalink: /:title/
+paginate: 10
+paginate_path: /page-:num
 
 kramdown:
   input: GFM
