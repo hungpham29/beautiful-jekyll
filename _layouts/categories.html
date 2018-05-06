@@ -1,0 +1,24 @@
+---
+layout: page
+---
+
+{% assign groupPostsByYearMonth = site.categories[page.category] | group_by_exp: "post", "post.date | date: '%B %Y'" %}
+
+{% for postByYearMonth in groupPostsByYearMonth %}
+  <h3 class="post-group"> {{postByYearMonth.name}} </h3>
+  {% for post in postByYearMonth.items  %}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      <h2 class="post-title">{{ post.title }}</h2>
+
+      {% if post.subtitle %}
+      <h4 class="post-subtitle">
+        {{ post.subtitle }}
+      </h4>
+      {% endif %}
+    </a>
+  </article>
+
+  {% endfor %}
+{% endfor %}
+

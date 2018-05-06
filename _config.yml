@@ -23,6 +23,7 @@ description: To Store Memory!
 
 # List of links in the navigation bar
 navbar-links:
+  Categories: "categories"
   About Me: "aboutme"
   Resources: "resources"
 
@@ -132,7 +133,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Asia/Ho_Chi_Minh"
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/

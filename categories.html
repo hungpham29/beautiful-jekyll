@@ -1,0 +1,13 @@
+---
+layout: page
+title: Categories
+---
+
+<div class="categories-list">
+{% for category in site.categories %}
+  <p class="category-item">
+    <a href="/{{site.navbar-links['Categories']}}/{{ category[0] }}">{{category[0] | replace: '-', ' ' }}</a>
+    <small class="cat-total-post">{{ category[1].size }} post{% if category[1].size > 1 %}s{% endif %}</small>
+  </p>
+{% endfor %}
+</div>
