@@ -375,6 +375,7 @@ footer .theme-by {
 .post-preview a {
   text-decoration: none;
   color: #e95280;
+  outline: none;
 }
 
 .post-preview a:focus,
