@@ -77,7 +77,7 @@ body {
 
 Khi đó `<h3 class="heading">This is heading</div>` sẽ có font-size bằng `16x2 = 32px`, `<p>This is content</p>` sẽ có font-size bằng `16x1.5 = 24px` *(`<p>` sẽ kế thừa css của element cha)*.
 
-*Chú ý:* Với trường hợp `em`, kích thước nó dựa vào element cha nên ta sẽ có:
+**_Chú ý:_** Với trường hợp `em`, kích thước nó dựa vào element cha nên ta sẽ có:
 {% highlight css linenos %}
 body {
   font-size: 16px;
@@ -95,17 +95,21 @@ nên ta cần chú ý tính toán trong trường hợp này.
 
 #### width, height của element
 
-CSS Width, height cho các element chúng ta chỉ cần sử dụng `%` hoặc `vw`, `vh` là OK *(ngoại trừ một số trường hợp cần dùng `px`, như cần set cố định margin, padding chẳng hạn)*.
+CSS Width, height cho các element chúng ta chỉ cần sử dụng `%` hoặc `vw`, `vh` là OK.
 Việc chúng ta cần làm là code cẩn thận để không element nào bị thiếu end tag là được.
 
-`*`*Chú ý:* Chúng ta cũng có thể dùng `em`, `rem` cho width, height.
+**_Chú ý:_**
+* Chúng ta cũng có thể dùng `em`, `rem` cho width, height.
+* Không phải lúc nào chúng ta cũng dùng đơn vị relative, một số trượng hợp như padding, margin, border-width, ... chúng ta vẫn nên dùng `px` để đảm bảo chúng không bị thay đổi khi kích thước màn hình thay đổi.
 
 #### Màn hình nhỏ (smartphone, etc...)
 
-Như ví dụ trên chúng ta chỉ cần thay font-size cho tag `body`.
+Như ví dụ trên chúng ta chỉ cần thay font-size cho tag `body`. Việc chỉnh sửa ít hơn và đơn giản hơn.
 {% highlight css linenos %}
-body {
-  font-size: 26px;
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 26px; /*Change font-size cho màn hình nhỏ*/
+  }
 }
 .post {
   font-size: 1.5rem;
