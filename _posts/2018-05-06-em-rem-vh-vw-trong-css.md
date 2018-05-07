@@ -98,6 +98,8 @@ nên ta cần chú ý tính toán trong trường hợp này.
 CSS Width, height cho các element chúng ta chỉ cần sử dụng `%` hoặc `vw`, `vh` là OK *(ngoại trừ một số trường hợp cần dùng `px`, như cần set cố định margin, padding chẳng hạn)*.
 Việc chúng ta cần làm là code cẩn thận để không element nào bị thiếu end tag là được.
 
+`*`*Chú ý:* Chúng ta cũng có thể dùng `em`, `rem` cho width, height.
+
 #### Màn hình nhỏ (smartphone, etc...)
 
 Như ví dụ trên chúng ta chỉ cần thay font-size cho tag `body`.
