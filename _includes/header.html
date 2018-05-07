@@ -36,7 +36,7 @@
 		  {% endif %}
 		  
 		  {% if include.type == "post" %}
-		  <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
+		  <div class="post-meta text-right">Posted on {{ page.date | date: "%B %-d, %Y" }}</div>
 		  {% endif %}
         </div>
       </div>
@@ -50,7 +50,7 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="{{ include.type }}-heading">
-            <h3>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h3>
+            <h3 class="h-title">{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h3>
       {% if page.show-try-hard %}
             <hr class="small">
             {% include try-hard.html type="page" %}
@@ -64,7 +64,7 @@
 		  {% endif %}
 		  
 		  {% if include.type == "post" %}
-		  <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
+		  <div class="post-meta text-right">Posted on {{ page.date | date: "%B %-d, %Y" }}</div>
 		  {% endif %}
         </div>
       </div>
