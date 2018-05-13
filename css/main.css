@@ -338,14 +338,14 @@ footer .theme-by {
 }
 
 .category-item a {
-  color: #e95280;
+  color: {{ site.specified-color }};
   text-transform: uppercase;
 }
 
 /* POST */
 .h-title {
   font-size: 1.8rem;
-  color: #e95280;
+  color: {{ site.specified-color }};
 }
 
 /* --- Post preview --- */
@@ -377,7 +377,7 @@ footer .theme-by {
 */
 .post-preview a {
   text-decoration: none;
-  color: #e95280;
+  color: {{ site.specified-color }};
   outline: none;
 }
 
