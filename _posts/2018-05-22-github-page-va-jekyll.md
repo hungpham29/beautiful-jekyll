@@ -2,8 +2,8 @@
 layout: post
 title: Github Page và Jekyll
 subtitle: Lưu lại để khỏi quên
-categories: [blog]
-tags: [blog, jekyll, github page]
+categories: [lung-tung]
+tags: [jekyll, github page]
 ---
 
 #### Cài đặt Ruby, gem, bundle
