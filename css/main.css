@@ -465,7 +465,7 @@ footer .theme-by {
     content: counter(section, upper-roman) ". ";
 }
 
-.blog-post h5 {
+.blog-post h5, .blog-post h6 {
   font-size: 1.3rem;
   margin-top: 20px;
 }
@@ -473,6 +473,11 @@ footer .theme-by {
 .blog-post h5::before {
     counter-increment: subsection;
     content: counter(section) "." counter(subsection) " ";
+}
+
+.blog-post h6::before {
+  counter-increment: section;
+  content: counter(section) ". ";
 }
 
 /* --- Tags --- */
