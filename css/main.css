@@ -6,15 +6,15 @@ layout: null
 
 /* --- General --- */
 html {
-  font-size: 16px;
+  font-size: 18px;
 }
 @media only screen and (max-width: 768px) {
   html {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 body {
-  font-family: 'Roboto Mono', monospace, serif;
+  font-family: 'Source Sans Pro', monospace, serif;
   color: #404040;
   font-size: 1rem;
   position: relative;
@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 800;
 }
 .h1, .h2, .h3, h1, h2, h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 a {
   color: {{ site.link-col }};

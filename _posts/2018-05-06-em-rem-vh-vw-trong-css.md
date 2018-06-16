@@ -2,8 +2,8 @@
 layout: post
 title: em, rem, vh, vw trong css
 subtitle: Một số unit trong css
-categories: [css]
-tags: [css]
+categories: [ui]
+tags: [ui]
 ---
 
 Trong CSS có khá nhiều unit để biểu thị kích thước, nhưng tóm lại, chúng chỉ được phân thành 2 loại là: **Absolute** (tuyệt đối) và **Relative** (tương đối)
