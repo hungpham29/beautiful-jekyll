@@ -1,9 +1,11 @@
 ---
 layout: post
-title: INSERTION SORT
+title: Insertion Sort
 categories: [algorithm]
 tags: [algorithm, sort]
 ---
+
+### Bài toán
 
 Cho một mảng A, sắp xếp theo thứ tự không giảm (nondecreasing).
 
@@ -45,7 +47,7 @@ for (let j = 1; j < arr.length; j++) {
 console.log('Output:', arr);    // Output: [ 1, 2, 3, 4, 5, 6 ]
 {% endhighlight %}
 
-### Mô phỏng
+Cách làm việc của thuật toán.
 <p class="text-center">
     <img src="/img/posts/insertion-sort/insertion-sort.png">
 </p>
