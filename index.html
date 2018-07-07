@@ -13,13 +13,12 @@ show-try-hard: false
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
       <h2 class="post-title">{{ post.title }}</h2>
-
-      {% if post.subtitle %}
-      <h4 class="post-subtitle">
-        {{ post.subtitle }}
-      </h4>
-      {% endif %}
     </a>
+    {% if post.subtitle %}
+    <h4 class="post-subtitle">
+      {{ post.subtitle }}
+    </h4>
+    {% endif %}
 
     {% if post.show-content %}
     <div class="post-entry">

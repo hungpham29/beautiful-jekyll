@@ -452,6 +452,9 @@ footer .theme-by {
 .post-preview .post-read-more {
   font-weight: 800;
 }
+.post-preview .post-title {
+  display: inline;
+}
 
 @media only screen and (min-width: 768px) {
   .post-preview .post-title {
