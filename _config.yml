@@ -55,14 +55,14 @@ specified-color: "#ca2a2a"
 
 # navbar-img: "/img/bgimage.png"
 # footer-img: "/img/bgimage.png"
-page-img: "/img/background.png"
+# page-img: "/img/background.png"
 
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Hung Pham
+  name: jeptoong
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.

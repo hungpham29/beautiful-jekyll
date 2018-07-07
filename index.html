@@ -1,8 +1,8 @@
 ---
 layout: page
-title: TODAY
+title: 
 use-site-title: true
-show-try-hard: true
+show-try-hard: false
 ---
 
 {% assign groupPostsByYearMonth = paginator.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
