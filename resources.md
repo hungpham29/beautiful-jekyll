@@ -6,9 +6,9 @@ title: Resources
 Một vài resouces, blog:
 
 ### Blog:
-* [https://thefullsnack.com](https://thefullsnack.com)
-* [https://toidicodedao.com](https://toidicodedao.com)
+* [https://thefullsnack.com](https://thefullsnack.com){:target="_blank"}
+* [https://toidicodedao.com](https://toidicodedao.com){:target="_blank"}
 
 
 ### Machine Learning:
-* [Machine Learning cơ bản](https://machinelearningcoban.com)
+* [Machine Learning cơ bản](https://machinelearningcoban.com){:target="_blank"}
