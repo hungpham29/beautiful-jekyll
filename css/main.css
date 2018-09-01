@@ -908,3 +908,10 @@ img.not-found {
     width: 50%;
   }
 }
+
+/* fix canvas width for mobile */
+@media only screen and (max-width: 768px) {
+  canvas {
+    width: 100%;
+  }
+}
