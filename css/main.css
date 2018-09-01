@@ -6,7 +6,7 @@ layout: null
 
 /* --- General --- */
 html {
-  font-size: 18px;
+  font-size: 16px;
 }
 @media only screen and (max-width: 768px) {
   html {
@@ -63,6 +63,10 @@ p {
 
 code {
   color: #2566c7;
+}
+
+.overflow-auto {
+  overflow: auto;
 }
 
 .custom-container {
@@ -323,7 +327,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   footer {
-    padding: 50px 0;
+    padding: 15px 0;
   }
   footer .footer-links {
     font-size: 18px;
@@ -400,6 +404,8 @@ footer .theme-by {
 .post-preview .post-title {
   font-size: 1rem;
   margin: 0;
+  display: inline;
+  text-transform: lowercase;
 }
 .post-preview .post-title::before {
   content: '-';
@@ -451,9 +457,6 @@ footer .theme-by {
 }
 .post-preview .post-read-more {
   font-weight: 800;
-}
-.post-preview .post-title {
-  display: inline;
 }
 
 @media only screen and (min-width: 768px) {

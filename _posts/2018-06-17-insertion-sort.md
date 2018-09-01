@@ -3,6 +3,7 @@ layout: post
 title: Insertion Sort
 categories: [algorithm]
 tags: [algorithm, sort]
+usejs: insertion-sort
 ---
 
 ### Bài toán
@@ -48,6 +49,7 @@ console.log('Output:', arr);    // Output: [ 1, 2, 3, 4, 5, 6 ]
 {% endhighlight %}
 
 Cách làm việc của thuật toán.
-<p class="text-center">
-    <img src="/img/posts/insertion-sort/insertion-sort.png">
-</p>
+
+<div class="text-center overflow-auto">
+    <canvas id="exp-canvas" width="600" height="430"></canvas>
+</div>
