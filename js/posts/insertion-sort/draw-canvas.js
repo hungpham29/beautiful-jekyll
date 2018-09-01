@@ -26,7 +26,7 @@ var DrawCanvas = (function() {
 					let val = arr[j];
 					let i = j - 1;
 					let t = {
-						value: [...arr]
+						value: arr.slice(0)
 					};
 
 					while (i >= 0 && arr[i] > val) {
@@ -50,7 +50,7 @@ var DrawCanvas = (function() {
 		 * Draw sort step.
 		 * @param {array} track
 		 */
-		function draw(track) {
+		function draw(track) {console.log(track)
 			for (let tIndex = 0; tIndex < track.length; tIndex++) {
 				let arr = track[tIndex].value;
 				let newIndex = track[tIndex].newPos;
