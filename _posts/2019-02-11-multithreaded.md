@@ -122,15 +122,6 @@ public class ThreadDemo extends Thread {
             }
         }
     }
-
-    public Thread startThead() {
-        System.out.println("[Thread " + threadName + "] is starting");
-        if (thread == null) {
-            thread = new Thread(this, threadName);
-            thread.start();
-        }
-        return thread;
-    }
 }
 
 // Create instance and start thread
@@ -141,10 +132,12 @@ public class Main {
 
         System.out.println(p.getName() + " count: " + p.getCount());
         ThreadDemo td1 = new ThreadDemo("A", p);
-        allThread.add(td1.startThead());
+        td1.start();
+        allThread.add(td1);
 
         ThreadDemo td2 = new ThreadDemo("A", p);
-        allThread.add(td2.startThead());
+        td2.start();
+        allThread.add(td2);
 
         for (Thread thread : allThread) {
             if (thread != null) {
