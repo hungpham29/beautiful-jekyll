@@ -155,7 +155,7 @@ public class Main {
 {% endhighlight %}
 
 **Mind**
-* Chờ các thread thực hiện xong ta dùng `Thread.join()`
+* Chờ các thread thực hiện xong ta dùng `thread.join()`
 {% highlight java linenos %}
 List<Thread> allThread = new ArrayList<>();
 
@@ -172,3 +172,4 @@ for (Thread thread : allThread) {
 }
 System.out.println("All thread are finish!");
 {% endhighlight %}
+* Gợi ý cho máy ảo nhường vị trí cho các thread khác: `Thread.yield()`
