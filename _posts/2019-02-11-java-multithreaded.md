@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Java - Multithreaded
+subtitle: Một chương trình đa luồng chứa 2 hoặc nhiều phần chạy đồng thời và mỗi phần có thể xử lý tác vụ khác nhau tại cùng một thời điểm
 categories: [java]
 tags: [java, thread]
 ---
